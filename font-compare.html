@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeanDex Font Compare</title>
+    <style>
+      @font-face {
+        font-family: "ZCOOL KuaiLe";
+        font-display: swap;
+        src: url("/fonts/ZCOOLKuaiLe-Regular.ttf") format("truetype");
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 28px;
+        background: #fffdf8;
+        color: #171717;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+      }
+
+      .card {
+        min-height: 520px;
+        padding: 22px;
+        border-radius: 24px;
+        background: #fff;
+        box-shadow: inset 0 0 0 1px rgba(78, 65, 43, 0.1), 0 12px 32px rgba(79, 62, 38, 0.11);
+      }
+
+      .system {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      }
+
+      .wenkai {
+        font-family: "ZCOOL KuaiLe", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      }
+
+      h1 {
+        margin: 0 0 18px;
+        font-size: 38px;
+        line-height: 1.1;
+        font-weight: 850;
+      }
+
+      h2 {
+        margin: 0 0 14px;
+        font-size: 26px;
+      }
+
+      p {
+        margin: 0 0 14px;
+        color: #5f5a4f;
+        font-size: 18px;
+        line-height: 1.55;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        height: 34px;
+        margin: 0 8px 8px 0;
+        padding: 0 12px;
+        border-radius: 999px;
+        background: #eaf7ee;
+        color: #2f6b4f;
+        font-size: 15px;
+        font-weight: 760;
+      }
+
+      .number {
+        margin-top: 20px;
+        font-size: 42px;
+        font-weight: 880;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <section class="card system">
+        <h1>系统字体</h1>
+        <h2>草莓布丁喵</h2>
+        <p>今天完成 3 件拼豆作品。豆灵会从屏幕边缘跑进自己的日期格。</p>
+        <span class="pill">闪光形态</span>
+        <span class="pill">甜心系</span>
+        <div class="number">8,650</div>
+      </section>
+      <section class="card wenkai">
+        <h1>站酷快乐体</h1>
+        <h2>草莓布丁喵</h2>
+        <p>今天完成 3 件拼豆作品。豆灵会从屏幕边缘跑进自己的日期格。</p>
+        <span class="pill">闪光形态</span>
+        <span class="pill">甜心系</span>
+        <div class="number">8,650</div>
+      </section>
+    </div>
+  </body>
+</html>
