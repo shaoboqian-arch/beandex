@@ -1,15 +1,16 @@
 {
-  "name": "BeanDex",
+  "name": "BeanDex 拼豆图鉴",
   "short_name": "BeanDex",
   "description": "拼豆成品记录与豆灵图鉴",
-  "start_url": "/",
-  "scope": "/",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f1e8",
+  "background_color": "#fffdf8",
   "theme_color": "#f6f1e8",
   "icons": [
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
