@@ -1,4 +1,4 @@
-const CACHE_VERSION = "74b75111573eef74df16c177548b350df5fdb9aa";
+const CACHE_VERSION = "1b78da3e3924e3b1bf50ce77981ad29e879f0c29";
 const CACHE_PREFIX = "beandex-pwa-";
 const CACHE_NAME = `${CACHE_PREFIX}${CACHE_VERSION}`;
 const APP_SCOPE = self.registration.scope;
